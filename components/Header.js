@@ -4,7 +4,7 @@ import { BadgeCheckIcon, CollectionIcon, HomeIcon, LightningBoltIcon, SearchIcon
 
 function Header() {
   return (
-    <header className="flex flex-col sm:flex-row justify-between items-center m-5 sm:m-0 h-auto">
+    <header className="flex flex-col sm:flex-row justify-between items-center p-5 sm:m-0 h-auto w-full">
       <div className="flex flex-grow justify-evenly max-w-2xl">
         <HeaderItem title="HOME" Icon={HomeIcon} />
         <HeaderItem title="TRENDING" Icon={LightningBoltIcon} />
